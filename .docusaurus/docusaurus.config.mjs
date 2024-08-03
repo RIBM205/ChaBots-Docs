@@ -9,14 +9,14 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "RIBM",
+  "projectName": "ChaBots-Docs",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
-    "defaultLocale": "es",
+    "defaultLocale": "en",
     "locales": [
-      "es"
+      "en"
     ],
     "path": "i18n",
     "localeConfigs": {}

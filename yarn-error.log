@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js deploy
 
 PATH: 
-  C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;C;C;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\takig\AppData\Local\Microsoft\WindowsApps;C:\Users\takig\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\takig\AppData\Roaming\npm;C:\Program Files\JetBrains\CLion 2022.3.2\bin;;C:\Users\takig\AppData\Local\GitHubDesktop\bin
+  C:\Users\takig\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\takig\bin;C:\Program Files\Python39\Scripts;C:\Program Files\Python39;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\Program Files\Microsoft SQL Server\150\DTS\Binn;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\CMake\bin;C;C;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet;C:\Program Files\HP\HP One Agent;C:\Program Files\nodejs;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\takig\AppData\Local\Microsoft\WindowsApps;C:\Users\takig\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2022.3.2\bin;C:\Users\takig\AppData\Local\GitHubDesktop\bin;C:\Users\takig\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
 
 Yarn version: 
   1.22.19
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  TypeError [ERR_INVALID_ARG_VALUE]: C:\Users\takig\Desktop\documentacion\ChaBots-Docs\node_modules\core-js: The property 'options.env['npm_config___u_n_s_a_f_e___p_e_r_m_']' must be a string without null bytes. Received '\x00t\x00r\x00u\x00e\x00'
+  TypeError [ERR_INVALID_ARG_VALUE]: The property 'options.env['npm_config___u_n_s_a_f_e___p_e_r_m_']' must be a string without null bytes. Received '\x00t\x00r\x00u\x00e\x00'
       at validateArgumentNullCheck (node:child_process:973:11)
       at normalizeSpawnArguments (node:child_process:700:7)
       at Object.spawn (node:child_process:754:13)
@@ -34,7 +34,7 @@ npm manifest:
     "scripts": {
       "docusaurus": "docusaurus",
       "start": "docusaurus start",
-      "build": "docusaurus build",
+      "build": "tsc & docusaurus build",
       "swizzle": "docusaurus swizzle",
       "deploy": "docusaurus deploy",
       "clear": "docusaurus clear",
@@ -44,8 +44,8 @@ npm manifest:
       "typecheck": "tsc"
     },
     "dependencies": {
-      "@docusaurus/core": "3.4.0",
-      "@docusaurus/preset-classic": "3.4.0",
+      "@docusaurus/core": "^3.4.0",
+      "@docusaurus/preset-classic": "^3.4.0",
       "@mdx-js/react": "^3.0.0",
       "clsx": "^2.0.0",
       "prism-react-renderer": "^2.3.0",
