@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcha_bots_docs=self.webpackChunkcha_bots_docs||[]).push([[2323],{2321:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/ChaBots-Docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
