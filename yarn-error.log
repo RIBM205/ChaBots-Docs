@@ -1,0 +1,82 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\CMake\bin;C;C;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\dotnet\;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin;C:\Users\takig\AppData\Local\Microsoft\WindowsApps;C:\Users\takig\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\takig\AppData\Roaming\npm;C:\Program Files\JetBrains\CLion 2022.3.2\bin;;C:\Users\takig\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError [ERR_INVALID_ARG_VALUE]: C:\Users\takig\Desktop\documentacion\ChaBots-Docs\node_modules\core-js: The property 'options.env['npm_config___u_n_s_a_f_e___p_e_r_m_']' must be a string without null bytes. Received '\x00t\x00r\x00u\x00e\x00'
+      at validateArgumentNullCheck (node:child_process:973:11)
+      at normalizeSpawnArguments (node:child_process:700:7)
+      at Object.spawn (node:child_process:754:13)
+      at C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:25732:24
+      at new Promise (<anonymous>)
+      at new F (C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5305:28)
+      at C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:25729:12
+      at run (C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:43184:7)
+      at BlockingQueue.maybePushConcurrencyQueue (C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:43199:7)
+      at BlockingQueue.shift (C:\Users\takig\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:43194:10)
+
+npm manifest: 
+  {
+    "name": "cha-bots-docs",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "docusaurus": "docusaurus",
+      "start": "docusaurus start",
+      "build": "docusaurus build",
+      "swizzle": "docusaurus swizzle",
+      "deploy": "docusaurus deploy",
+      "clear": "docusaurus clear",
+      "serve": "docusaurus serve",
+      "write-translations": "docusaurus write-translations",
+      "write-heading-ids": "docusaurus write-heading-ids",
+      "typecheck": "tsc"
+    },
+    "dependencies": {
+      "@docusaurus/core": "3.4.0",
+      "@docusaurus/preset-classic": "3.4.0",
+      "@mdx-js/react": "^3.0.0",
+      "clsx": "^2.0.0",
+      "prism-react-renderer": "^2.3.0",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+      "@docusaurus/module-type-aliases": "3.4.0",
+      "@docusaurus/tsconfig": "3.4.0",
+      "@docusaurus/types": "3.4.0",
+      "typescript": "~5.2.2"
+    },
+    "browserslist": {
+      "production": [
+        ">0.5%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 3 chrome version",
+        "last 3 firefox version",
+        "last 5 safari version"
+      ]
+    },
+    "engines": {
+      "node": ">=18.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
