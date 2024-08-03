@@ -8,11 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Soccer-Ligthweigth-2024/Introduccion",
           "docs": [
+            {
+              "id": "hello",
+              "path": "/docs/hello",
+              "sidebar": "tutorialSidebar"
+            },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Soccer-Ligthweigth-2024/Introduccion",
+              "path": "/docs/Soccer-Ligthweigth-2024/Introduccion",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -56,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/soccer-ligthweigth-2024",
+              "path": "/docs/category/soccer-ligthweigth-2024",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/tutorial---basics",
               "path": "/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
@@ -70,8 +85,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/category/soccer-ligthweigth-2024",
+                "label": "Soccer Ligthweigth 2024"
               }
             }
           }

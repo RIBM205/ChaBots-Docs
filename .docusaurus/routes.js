@@ -99,16 +99,22 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    component: ComponentCreator('/docs', 'a1c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        component: ComponentCreator('/docs', 'ea0'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            component: ComponentCreator('/docs', '7ee'),
             routes: [
+              {
+                path: '/docs/category/soccer-ligthweigth-2024',
+                component: ComponentCreator('/docs/category/soccer-ligthweigth-2024', '9d9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
               {
                 path: '/docs/category/tutorial---basics',
                 component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
@@ -122,8 +128,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/hello',
+                component: ComponentCreator('/docs/hello', '4d1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Soccer-Ligthweigth-2024/Introduccion',
+                component: ComponentCreator('/docs/Soccer-Ligthweigth-2024/Introduccion', '24f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

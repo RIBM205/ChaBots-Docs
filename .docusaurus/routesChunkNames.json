@@ -194,18 +194,22 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-733": {
+  "/docs-a1c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docsaba-d7c"
     }
   },
-  "/docs-7e6": {
+  "/docs-ea0": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "__props": "__props---docs-005-788"
   },
-  "/docs-ba6": {
+  "/docs-7ee": {
     "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/category/soccer-ligthweigth-2024-9d9": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "__props": "__props---docs-category-soccer-ligthweigth-2024372-af3"
   },
   "/docs/category/tutorial---basics-20e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -215,9 +219,17 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "__props": "__props---docs-category-tutorial-extras-6-bb-a82"
   },
+  "/docs/hello-4d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-hello-9-df-13a"
+  },
   "/docs/intro-61d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/Soccer-Ligthweigth-2024/Introduccion-24f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-soccer-ligthweigth-2024-introduccion-8-f-2-c15"
   },
   "/docs/tutorial-basics/congratulations-458": {
     "__comp": "__comp---theme-doc-item-178-a40",
