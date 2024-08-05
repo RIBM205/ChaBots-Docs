@@ -151,38 +151,22 @@
     },
     "content": "393be207"
   },
-  "/docs-0d3": {
+  "/docs-16a": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-1cc": {
+  "/docs-df4": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-946": {
+  "/docs-f84": {
     "__comp": "a94703ab"
   },
   "/docs/category/soccer-ligthweigth-2024-9d9": {
     "__comp": "14eb3368",
     "__props": "372aaf01"
-  },
-  "/docs/category/tutorial---basics-20e": {
-    "__comp": "14eb3368",
-    "__props": "c8a4e95a"
-  },
-  "/docs/category/tutorial---extras-9ad": {
-    "__comp": "14eb3368",
-    "__props": "6bb166bd"
-  },
-  "/docs/hello-4d1": {
-    "__comp": "17896441",
-    "content": "9dfd250b"
-  },
-  "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
   },
   "/docs/Soccer-Ligthweigth-2024/Introduccion-24f": {
     "__comp": "17896441",
@@ -191,38 +175,6 @@
   "/docs/Soccer-Ligthweigth-2024/mecanica-c3a": {
     "__comp": "17896441",
     "content": "eeb51b55"
-  },
-  "/docs/tutorial-basics/congratulations-458": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/docs/tutorial-basics/create-a-document-8fc": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/docs/tutorial-basics/create-a-page-951": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/docs/tutorial-basics/markdown-features-b05": {
-    "__comp": "17896441",
-    "content": "18c41134"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-978": {
-    "__comp": "17896441",
-    "content": "dff1c289"
-  },
-  "/docs/tutorial-extras/translate-your-site-f9a": {
-    "__comp": "17896441",
-    "content": "e44a2883"
   },
   "/-e5f": {
     "__comp": "1df93b7f",
