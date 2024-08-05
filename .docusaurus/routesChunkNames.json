@@ -1,5 +1,5 @@
 {
-  "/ChaBots-Docs/blog-d14": {
+  "/blog-b2f": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "4912b34a"
+    "__props": "c15d9823"
   },
-  "/ChaBots-Docs/blog/archive-582": {
+  "/blog/archive-182": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "7b55e786"
+    "__props": "f81c1134"
   },
-  "/ChaBots-Docs/blog/first-blog-post-ae0": {
+  "/blog/first-blog-post-89a": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -39,7 +39,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/ChaBots-Docs/blog/long-blog-post-931": {
+  "/blog/long-blog-post-9ad": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -50,7 +50,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/ChaBots-Docs/blog/mdx-blog-post-dcd": {
+  "/blog/mdx-blog-post-e9f": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -61,15 +61,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/ChaBots-Docs/blog/tags-9c3": {
+  "/blog/tags-287": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "94a99873"
+    "__props": "3a2db09e"
   },
-  "/ChaBots-Docs/blog/tags/docusaurus-3de": {
+  "/blog/tags/docusaurus-704": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -89,9 +89,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "58d9db7f"
+    "__props": "3217192f"
   },
-  "/ChaBots-Docs/blog/tags/facebook-f2e": {
+  "/blog/tags/facebook-858": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -102,9 +102,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "cc1daab3"
+    "__props": "e5aefb32"
   },
-  "/ChaBots-Docs/blog/tags/hello-563": {
+  "/blog/tags/hello-299": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -118,9 +118,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "69e9615c"
+    "__props": "f82cd581"
   },
-  "/ChaBots-Docs/blog/tags/hola-84d": {
+  "/blog/tags/hola-00d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -131,9 +131,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "cc42bfcd"
+    "__props": "5e90a9b3"
   },
-  "/ChaBots-Docs/blog/welcome-8e5": {
+  "/blog/welcome-d2b": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -144,83 +144,83 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/ChaBots-Docs/markdown-page-cff": {
+  "/markdown-page-3d7": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/ChaBots-Docs/docs-45e": {
+  "/docs-a1c": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/ChaBots-Docs/docs-ed9": {
+  "/docs-ea0": {
     "__comp": "a7bd4aaa",
-    "__props": "0e398fca"
+    "__props": "0058b4c6"
   },
-  "/ChaBots-Docs/docs-271": {
+  "/docs-7ee": {
     "__comp": "a94703ab"
   },
-  "/ChaBots-Docs/docs/category/soccer-ligthweigth-2024-700": {
+  "/docs/category/soccer-ligthweigth-2024-9d9": {
     "__comp": "14eb3368",
-    "__props": "045156b9"
+    "__props": "372aaf01"
   },
-  "/ChaBots-Docs/docs/category/tutorial---basics-69b": {
+  "/docs/category/tutorial---basics-20e": {
     "__comp": "14eb3368",
-    "__props": "eef1b4b9"
+    "__props": "c8a4e95a"
   },
-  "/ChaBots-Docs/docs/category/tutorial---extras-2ad": {
+  "/docs/category/tutorial---extras-9ad": {
     "__comp": "14eb3368",
-    "__props": "22fc5a2a"
+    "__props": "6bb166bd"
   },
-  "/ChaBots-Docs/docs/hello-713": {
+  "/docs/hello-4d1": {
     "__comp": "17896441",
     "content": "9dfd250b"
   },
-  "/ChaBots-Docs/docs/intro-b3d": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/ChaBots-Docs/docs/Soccer-Ligthweigth-2024/Introduccion-f05": {
+  "/docs/Soccer-Ligthweigth-2024/Introduccion-24f": {
     "__comp": "17896441",
     "content": "8f27c889"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/congratulations-5ad": {
+  "/docs/tutorial-basics/congratulations-458": {
     "__comp": "17896441",
     "content": "822bd8ab"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/create-a-blog-post-b9e": {
+  "/docs/tutorial-basics/create-a-blog-post-108": {
     "__comp": "17896441",
     "content": "533a09ca"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/create-a-document-b7c": {
+  "/docs/tutorial-basics/create-a-document-8fc": {
     "__comp": "17896441",
     "content": "1e4232ab"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/create-a-page-80a": {
+  "/docs/tutorial-basics/create-a-page-951": {
     "__comp": "17896441",
     "content": "5c868d36"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/deploy-your-site-4e3": {
+  "/docs/tutorial-basics/deploy-your-site-4f5": {
     "__comp": "17896441",
     "content": "f55d3e7a"
   },
-  "/ChaBots-Docs/docs/tutorial-basics/markdown-features-d2e": {
+  "/docs/tutorial-basics/markdown-features-b05": {
     "__comp": "17896441",
     "content": "18c41134"
   },
-  "/ChaBots-Docs/docs/tutorial-extras/manage-docs-versions-eb5": {
+  "/docs/tutorial-extras/manage-docs-versions-978": {
     "__comp": "17896441",
     "content": "dff1c289"
   },
-  "/ChaBots-Docs/docs/tutorial-extras/translate-your-site-e71": {
+  "/docs/tutorial-extras/translate-your-site-f9a": {
     "__comp": "17896441",
     "content": "e44a2883"
   },
-  "/ChaBots-Docs/-1c9": {
+  "/-e5f": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

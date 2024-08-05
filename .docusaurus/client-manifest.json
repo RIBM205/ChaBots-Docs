@@ -42,18 +42,15 @@
       8792,
       5354
     ],
+    "0058b4c6": [
+      849
+    ],
     "01a85c17": [
       1869,
       8209
     ],
-    "045156b9": [
-      5623
-    ],
     "0e384e19": [
       3976
-    ],
-    "0e398fca": [
-      2584
     ],
     "14eb3368": [
       1869,
@@ -74,26 +71,29 @@
       9354,
       6061
     ],
-    "22fc5a2a": [
-      7823
+    "3217192f": [
+      8462
     ],
     "36994c47": [
       9858
     ],
+    "372aaf01": [
+      8598
+    ],
     "393be207": [
       4134
     ],
-    "4912b34a": [
-      2323
+    "3a2db09e": [
+      8121
     ],
     "533a09ca": [
       3098
     ],
-    "58d9db7f": [
-      1316
-    ],
     "5c868d36": [
       1974
+    ],
+    "5e90a9b3": [
+      8025
     ],
     "5e95c892": [
       9647
@@ -104,17 +104,14 @@
       9354,
       4813
     ],
-    "69e9615c": [
-      7933
+    "6bb166bd": [
+      8518
     ],
     "73664a40": [
       1972
     ],
     "7661071f": [
       8737
-    ],
-    "7b55e786": [
-      1460
     ],
     "814f3328": [
       7472
@@ -130,9 +127,6 @@
     ],
     "925b3f96": [
       8609
-    ],
-    "94a99873": [
-      3115
     ],
     "9dfd250b": [
       2887
@@ -162,11 +156,11 @@
     "acecf23e": [
       1903
     ],
-    "cc1daab3": [
-      6017
+    "c15d9823": [
+      8146
     ],
-    "cc42bfcd": [
-      6266
+    "c8a4e95a": [
+      845
     ],
     "ccc49370": [
       1869,
@@ -186,14 +180,20 @@
     "e44a2883": [
       4736
     ],
-    "eef1b4b9": [
-      7687
+    "e5aefb32": [
+      3276
     ],
     "f4f34a3a": [
       3637
     ],
     "f55d3e7a": [
       8863
+    ],
+    "f81c1134": [
+      8130
+    ],
+    "f82cd581": [
+      4584
     ],
     "styles": [
       3242,
@@ -213,39 +213,39 @@
     ]
   },
   "assets": {
+    "845": {
+      "js": [
+        {
+          "file": "assets/js/c8a4e95a.c82f11d9.js",
+          "hash": "daa9adc03079d085",
+          "publicPath": "/assets/js/c8a4e95a.c82f11d9.js"
+        }
+      ]
+    },
+    "849": {
+      "js": [
+        {
+          "file": "assets/js/0058b4c6.4a0e9398.js",
+          "hash": "92b521c57691ca08",
+          "publicPath": "/assets/js/0058b4c6.4a0e9398.js"
+        }
+      ]
+    },
     "1235": {
       "js": [
         {
           "file": "assets/js/a7456010.a901e0a8.js",
           "hash": "aa9439679d147da0",
-          "publicPath": "/ChaBots-Docs/assets/js/a7456010.a901e0a8.js"
-        }
-      ]
-    },
-    "1316": {
-      "js": [
-        {
-          "file": "assets/js/58d9db7f.c4b5f54a.js",
-          "hash": "03bcd1823db62b8b",
-          "publicPath": "/ChaBots-Docs/assets/js/58d9db7f.c4b5f54a.js"
-        }
-      ]
-    },
-    "1460": {
-      "js": [
-        {
-          "file": "assets/js/7b55e786.f3c8b025.js",
-          "hash": "53f2a7d0c3ada48d",
-          "publicPath": "/ChaBots-Docs/assets/js/7b55e786.f3c8b025.js"
+          "publicPath": "/assets/js/a7456010.a901e0a8.js"
         }
       ]
     },
     "1724": {
       "js": [
         {
-          "file": "assets/js/dff1c289.7f31e576.js",
-          "hash": "a036e206ba06ab2d",
-          "publicPath": "/ChaBots-Docs/assets/js/dff1c289.7f31e576.js"
+          "file": "assets/js/dff1c289.67b6578b.js",
+          "hash": "9ec52895f5047569",
+          "publicPath": "/assets/js/dff1c289.67b6578b.js"
         }
       ]
     },
@@ -254,43 +254,43 @@
         {
           "file": "assets/css/styles.d7756e72.css",
           "hash": "515f1002a2977f0f",
-          "publicPath": "/ChaBots-Docs/assets/css/styles.d7756e72.css"
+          "publicPath": "/assets/css/styles.d7756e72.css"
         }
       ]
     },
     "1903": {
       "js": [
         {
-          "file": "assets/js/acecf23e.eb2899d6.js",
-          "hash": "39e8e1161575993b",
-          "publicPath": "/ChaBots-Docs/assets/js/acecf23e.eb2899d6.js"
+          "file": "assets/js/acecf23e.c439a797.js",
+          "hash": "fee95c47805b2949",
+          "publicPath": "/assets/js/acecf23e.c439a797.js"
         }
       ]
     },
     "1953": {
       "js": [
         {
-          "file": "assets/js/1e4232ab.96c60f51.js",
-          "hash": "214d36737b330160",
-          "publicPath": "/ChaBots-Docs/assets/js/1e4232ab.96c60f51.js"
+          "file": "assets/js/1e4232ab.1f346ccb.js",
+          "hash": "1b27e450556bc701",
+          "publicPath": "/assets/js/1e4232ab.1f346ccb.js"
         }
       ]
     },
     "1972": {
       "js": [
         {
-          "file": "assets/js/73664a40.69f16c9a.js",
-          "hash": "20d72867cc284a6f",
-          "publicPath": "/ChaBots-Docs/assets/js/73664a40.69f16c9a.js"
+          "file": "assets/js/73664a40.f7960029.js",
+          "hash": "6c021493c8a0c477",
+          "publicPath": "/assets/js/73664a40.f7960029.js"
         }
       ]
     },
     "1974": {
       "js": [
         {
-          "file": "assets/js/5c868d36.85cad3e7.js",
-          "hash": "ceea64b0a95f0209",
-          "publicPath": "/ChaBots-Docs/assets/js/5c868d36.85cad3e7.js"
+          "file": "assets/js/5c868d36.c8e044bf.js",
+          "hash": "f45bce1bd2183953",
+          "publicPath": "/assets/js/5c868d36.c8e044bf.js"
         }
       ]
     },
@@ -299,25 +299,7 @@
         {
           "file": "assets/js/2237.92bc4623.js",
           "hash": "78fb6719f0cddc8e",
-          "publicPath": "/ChaBots-Docs/assets/js/2237.92bc4623.js"
-        }
-      ]
-    },
-    "2323": {
-      "js": [
-        {
-          "file": "assets/js/4912b34a.069ce94f.js",
-          "hash": "9eebdea952493f60",
-          "publicPath": "/ChaBots-Docs/assets/js/4912b34a.069ce94f.js"
-        }
-      ]
-    },
-    "2584": {
-      "js": [
-        {
-          "file": "assets/js/0e398fca.aa1cbb5e.js",
-          "hash": "93f39885c75441a4",
-          "publicPath": "/ChaBots-Docs/assets/js/0e398fca.aa1cbb5e.js"
+          "publicPath": "/assets/js/2237.92bc4623.js"
         }
       ]
     },
@@ -326,43 +308,34 @@
         {
           "file": "assets/js/9e4087bc.04c09e12.js",
           "hash": "df29ecc0415faa45",
-          "publicPath": "/ChaBots-Docs/assets/js/9e4087bc.04c09e12.js"
+          "publicPath": "/assets/js/9e4087bc.04c09e12.js"
         }
       ]
     },
     "2748": {
       "js": [
         {
-          "file": "assets/js/822bd8ab.9e49a29c.js",
-          "hash": "17638a33f46733f5",
-          "publicPath": "/ChaBots-Docs/assets/js/822bd8ab.9e49a29c.js"
+          "file": "assets/js/822bd8ab.7ba57430.js",
+          "hash": "d4041b87e141bb16",
+          "publicPath": "/assets/js/822bd8ab.7ba57430.js"
         }
       ]
     },
     "2887": {
       "js": [
         {
-          "file": "assets/js/9dfd250b.01c38179.js",
-          "hash": "f60057314259ea3c",
-          "publicPath": "/ChaBots-Docs/assets/js/9dfd250b.01c38179.js"
+          "file": "assets/js/9dfd250b.5fb2a31c.js",
+          "hash": "43d0f604b321fee1",
+          "publicPath": "/assets/js/9dfd250b.5fb2a31c.js"
         }
       ]
     },
     "3098": {
       "js": [
         {
-          "file": "assets/js/533a09ca.e0345823.js",
-          "hash": "57c63152dadaa177",
-          "publicPath": "/ChaBots-Docs/assets/js/533a09ca.e0345823.js"
-        }
-      ]
-    },
-    "3115": {
-      "js": [
-        {
-          "file": "assets/js/94a99873.17ab4824.js",
-          "hash": "a9edf85b1cfc5f87",
-          "publicPath": "/ChaBots-Docs/assets/js/94a99873.17ab4824.js"
+          "file": "assets/js/533a09ca.f049f37a.js",
+          "hash": "1326dea9b9b6b8f9",
+          "publicPath": "/assets/js/533a09ca.f049f37a.js"
         }
       ]
     },
@@ -371,7 +344,7 @@
         {
           "file": "assets/js/3242.f0282bc2.js",
           "hash": "f669d09bef897472",
-          "publicPath": "/ChaBots-Docs/assets/js/3242.f0282bc2.js"
+          "publicPath": "/assets/js/3242.f0282bc2.js"
         }
       ]
     },
@@ -380,43 +353,52 @@
         {
           "file": "assets/js/ccc49370.a4e8a7f5.js",
           "hash": "b1dee2a9ee02a96d",
-          "publicPath": "/ChaBots-Docs/assets/js/ccc49370.a4e8a7f5.js"
+          "publicPath": "/assets/js/ccc49370.a4e8a7f5.js"
+        }
+      ]
+    },
+    "3276": {
+      "js": [
+        {
+          "file": "assets/js/e5aefb32.d834ff74.js",
+          "hash": "0543aad6388301e1",
+          "publicPath": "/assets/js/e5aefb32.d834ff74.js"
         }
       ]
     },
     "3637": {
       "js": [
         {
-          "file": "assets/js/f4f34a3a.5a2c3ec6.js",
-          "hash": "3e682304855b5ea8",
-          "publicPath": "/ChaBots-Docs/assets/js/f4f34a3a.5a2c3ec6.js"
+          "file": "assets/js/f4f34a3a.56bbc7f1.js",
+          "hash": "7fd2166216eb846d",
+          "publicPath": "/assets/js/f4f34a3a.56bbc7f1.js"
         }
       ]
     },
     "3694": {
       "js": [
         {
-          "file": "assets/js/8717b14a.7d662d7f.js",
-          "hash": "b3359ac376f96a48",
-          "publicPath": "/ChaBots-Docs/assets/js/8717b14a.7d662d7f.js"
+          "file": "assets/js/8717b14a.d214ee86.js",
+          "hash": "0c3a69300c63a705",
+          "publicPath": "/assets/js/8717b14a.d214ee86.js"
         }
       ]
     },
     "3976": {
       "js": [
         {
-          "file": "assets/js/0e384e19.b1185221.js",
-          "hash": "fd7940b9b059da17",
-          "publicPath": "/ChaBots-Docs/assets/js/0e384e19.b1185221.js"
+          "file": "assets/js/0e384e19.725f13b9.js",
+          "hash": "e8eec4bbc3f18414",
+          "publicPath": "/assets/js/0e384e19.725f13b9.js"
         }
       ]
     },
     "4134": {
       "js": [
         {
-          "file": "assets/js/393be207.38cfd6ca.js",
-          "hash": "5c45627fab26f555",
-          "publicPath": "/ChaBots-Docs/assets/js/393be207.38cfd6ca.js"
+          "file": "assets/js/393be207.8c52036a.js",
+          "hash": "9d42fcd869aa5374",
+          "publicPath": "/assets/js/393be207.8c52036a.js"
         }
       ]
     },
@@ -425,16 +407,25 @@
         {
           "file": "assets/js/1df93b7f.44d692bb.js",
           "hash": "6b9797d2d0d0df48",
-          "publicPath": "/ChaBots-Docs/assets/js/1df93b7f.44d692bb.js"
+          "publicPath": "/assets/js/1df93b7f.44d692bb.js"
+        }
+      ]
+    },
+    "4584": {
+      "js": [
+        {
+          "file": "assets/js/f82cd581.8ba96417.js",
+          "hash": "e59b045e55ec61b2",
+          "publicPath": "/assets/js/f82cd581.8ba96417.js"
         }
       ]
     },
     "4736": {
       "js": [
         {
-          "file": "assets/js/e44a2883.8b73ba7e.js",
-          "hash": "09a064744e71fe54",
-          "publicPath": "/ChaBots-Docs/assets/js/e44a2883.8b73ba7e.js"
+          "file": "assets/js/e44a2883.989e3c3b.js",
+          "hash": "aef6bdb8f451fdcd",
+          "publicPath": "/assets/js/e44a2883.989e3c3b.js"
         }
       ]
     },
@@ -443,34 +434,25 @@
         {
           "file": "assets/js/6875c492.2490b248.js",
           "hash": "31f393eaaae31a7c",
-          "publicPath": "/ChaBots-Docs/assets/js/6875c492.2490b248.js"
+          "publicPath": "/assets/js/6875c492.2490b248.js"
         }
       ]
     },
     "5354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.9c6e37be.js",
-          "hash": "7476f55f3cdd78dd",
-          "publicPath": "/ChaBots-Docs/assets/js/runtime~main.9c6e37be.js"
+          "file": "assets/js/runtime~main.f8df7402.js",
+          "hash": "acf0e4f232ef96ba",
+          "publicPath": "/assets/js/runtime~main.f8df7402.js"
         }
       ]
     },
     "5557": {
       "js": [
         {
-          "file": "assets/js/d9f32620.2230f2be.js",
-          "hash": "c635463ef480505a",
-          "publicPath": "/ChaBots-Docs/assets/js/d9f32620.2230f2be.js"
-        }
-      ]
-    },
-    "5623": {
-      "js": [
-        {
-          "file": "assets/js/045156b9.4d760953.js",
-          "hash": "f087fdc58c731bd4",
-          "publicPath": "/ChaBots-Docs/assets/js/045156b9.4d760953.js"
+          "file": "assets/js/d9f32620.aa883eec.js",
+          "hash": "ed4c3564bccf4360",
+          "publicPath": "/assets/js/d9f32620.aa883eec.js"
         }
       ]
     },
@@ -479,16 +461,7 @@
         {
           "file": "assets/js/aba21aa0.87b3abdf.js",
           "hash": "f6c67cd14d417037",
-          "publicPath": "/ChaBots-Docs/assets/js/aba21aa0.87b3abdf.js"
-        }
-      ]
-    },
-    "6017": {
-      "js": [
-        {
-          "file": "assets/js/cc1daab3.835a7efe.js",
-          "hash": "0333b0bbc8e63bd7",
-          "publicPath": "/ChaBots-Docs/assets/js/cc1daab3.835a7efe.js"
+          "publicPath": "/assets/js/aba21aa0.87b3abdf.js"
         }
       ]
     },
@@ -497,25 +470,16 @@
         {
           "file": "assets/js/1f391b9e.88dd5324.js",
           "hash": "945147ba4254d3f1",
-          "publicPath": "/ChaBots-Docs/assets/js/1f391b9e.88dd5324.js"
-        }
-      ]
-    },
-    "6266": {
-      "js": [
-        {
-          "file": "assets/js/cc42bfcd.bb29bd82.js",
-          "hash": "20969d8e7c32c437",
-          "publicPath": "/ChaBots-Docs/assets/js/cc42bfcd.bb29bd82.js"
+          "publicPath": "/assets/js/1f391b9e.88dd5324.js"
         }
       ]
     },
     "6476": {
       "js": [
         {
-          "file": "assets/js/8f27c889.218f1b39.js",
-          "hash": "bebfc5422ae23b49",
-          "publicPath": "/ChaBots-Docs/assets/js/8f27c889.218f1b39.js"
+          "file": "assets/js/8f27c889.ad4b2f7e.js",
+          "hash": "21c8f7917c12dced",
+          "publicPath": "/assets/js/8f27c889.ad4b2f7e.js"
         }
       ]
     },
@@ -524,7 +488,7 @@
         {
           "file": "assets/js/14eb3368.517ef131.js",
           "hash": "9d835f04f2ebe90e",
-          "publicPath": "/ChaBots-Docs/assets/js/14eb3368.517ef131.js"
+          "publicPath": "/assets/js/14eb3368.517ef131.js"
         }
       ]
     },
@@ -533,16 +497,16 @@
         {
           "file": "assets/js/a7bd4aaa.1ea4c552.js",
           "hash": "76b0eaf72b8edde6",
-          "publicPath": "/ChaBots-Docs/assets/js/a7bd4aaa.1ea4c552.js"
+          "publicPath": "/assets/js/a7bd4aaa.1ea4c552.js"
         }
       ]
     },
     "7472": {
       "js": [
         {
-          "file": "assets/js/814f3328.17dd5700.js",
-          "hash": "6a3068083b948021",
-          "publicPath": "/ChaBots-Docs/assets/js/814f3328.17dd5700.js"
+          "file": "assets/js/814f3328.ac6e1675.js",
+          "hash": "1b7c87f3d0e2c15f",
+          "publicPath": "/assets/js/814f3328.ac6e1675.js"
         }
       ]
     },
@@ -551,34 +515,43 @@
         {
           "file": "assets/js/a6aa9e1f.2434e4a0.js",
           "hash": "702e421f262d6a20",
-          "publicPath": "/ChaBots-Docs/assets/js/a6aa9e1f.2434e4a0.js"
+          "publicPath": "/assets/js/a6aa9e1f.2434e4a0.js"
         }
       ]
     },
-    "7687": {
+    "8025": {
       "js": [
         {
-          "file": "assets/js/eef1b4b9.2a507d8b.js",
-          "hash": "a8330a47b17a85fa",
-          "publicPath": "/ChaBots-Docs/assets/js/eef1b4b9.2a507d8b.js"
+          "file": "assets/js/5e90a9b3.fcf220c4.js",
+          "hash": "22f4aa8dadafa659",
+          "publicPath": "/assets/js/5e90a9b3.fcf220c4.js"
         }
       ]
     },
-    "7823": {
+    "8121": {
       "js": [
         {
-          "file": "assets/js/22fc5a2a.113469c3.js",
-          "hash": "bdce465a5111068b",
-          "publicPath": "/ChaBots-Docs/assets/js/22fc5a2a.113469c3.js"
+          "file": "assets/js/3a2db09e.ac59913c.js",
+          "hash": "d378b90fe317f3a9",
+          "publicPath": "/assets/js/3a2db09e.ac59913c.js"
         }
       ]
     },
-    "7933": {
+    "8130": {
       "js": [
         {
-          "file": "assets/js/69e9615c.6abb1aaf.js",
-          "hash": "44bed20898a792a4",
-          "publicPath": "/ChaBots-Docs/assets/js/69e9615c.6abb1aaf.js"
+          "file": "assets/js/f81c1134.f010fa30.js",
+          "hash": "67804824a528ee1b",
+          "publicPath": "/assets/js/f81c1134.f010fa30.js"
+        }
+      ]
+    },
+    "8146": {
+      "js": [
+        {
+          "file": "assets/js/c15d9823.6f80e95c.js",
+          "hash": "80f1ce3e783dee15",
+          "publicPath": "/assets/js/c15d9823.6f80e95c.js"
         }
       ]
     },
@@ -587,7 +560,7 @@
         {
           "file": "assets/js/01a85c17.4e902461.js",
           "hash": "0da83ad8a3e08b08",
-          "publicPath": "/ChaBots-Docs/assets/js/01a85c17.4e902461.js"
+          "publicPath": "/assets/js/01a85c17.4e902461.js"
         }
       ]
     },
@@ -596,43 +569,70 @@
         {
           "file": "assets/js/17896441.310b4a0f.js",
           "hash": "96604ea89c81581e",
-          "publicPath": "/ChaBots-Docs/assets/js/17896441.310b4a0f.js"
+          "publicPath": "/assets/js/17896441.310b4a0f.js"
+        }
+      ]
+    },
+    "8462": {
+      "js": [
+        {
+          "file": "assets/js/3217192f.ff44dbe7.js",
+          "hash": "9a9777ee982af90a",
+          "publicPath": "/assets/js/3217192f.ff44dbe7.js"
+        }
+      ]
+    },
+    "8518": {
+      "js": [
+        {
+          "file": "assets/js/6bb166bd.04d5135e.js",
+          "hash": "2932a105ee396ccb",
+          "publicPath": "/assets/js/6bb166bd.04d5135e.js"
+        }
+      ]
+    },
+    "8598": {
+      "js": [
+        {
+          "file": "assets/js/372aaf01.c2ba570a.js",
+          "hash": "bd35a7a871e54870",
+          "publicPath": "/assets/js/372aaf01.c2ba570a.js"
         }
       ]
     },
     "8609": {
       "js": [
         {
-          "file": "assets/js/925b3f96.1d2670c3.js",
-          "hash": "318179291198cc49",
-          "publicPath": "/ChaBots-Docs/assets/js/925b3f96.1d2670c3.js"
+          "file": "assets/js/925b3f96.6db56eca.js",
+          "hash": "e0d23b55dd85a536",
+          "publicPath": "/assets/js/925b3f96.6db56eca.js"
         }
       ]
     },
     "8737": {
       "js": [
         {
-          "file": "assets/js/7661071f.66d476b8.js",
-          "hash": "6b88feb7ad4affef",
-          "publicPath": "/ChaBots-Docs/assets/js/7661071f.66d476b8.js"
+          "file": "assets/js/7661071f.2542837d.js",
+          "hash": "93de78f216052c61",
+          "publicPath": "/assets/js/7661071f.2542837d.js"
         }
       ]
     },
     "8792": {
       "js": [
         {
-          "file": "assets/js/main.bfd408c0.js",
-          "hash": "cd4b342268e7c369",
-          "publicPath": "/ChaBots-Docs/assets/js/main.bfd408c0.js"
+          "file": "assets/js/main.3a6f3909.js",
+          "hash": "482e2eb3e6f50947",
+          "publicPath": "/assets/js/main.3a6f3909.js"
         }
       ]
     },
     "8863": {
       "js": [
         {
-          "file": "assets/js/f55d3e7a.a042bf32.js",
-          "hash": "0214313ee3d873bd",
-          "publicPath": "/ChaBots-Docs/assets/js/f55d3e7a.a042bf32.js"
+          "file": "assets/js/f55d3e7a.0ce25849.js",
+          "hash": "fdb7b7c1df80d94f",
+          "publicPath": "/assets/js/f55d3e7a.0ce25849.js"
         }
       ]
     },
@@ -641,34 +641,34 @@
         {
           "file": "assets/js/a94703ab.f5d23ae3.js",
           "hash": "28dd756cd7d5b99f",
-          "publicPath": "/ChaBots-Docs/assets/js/a94703ab.f5d23ae3.js"
+          "publicPath": "/assets/js/a94703ab.f5d23ae3.js"
         }
       ]
     },
     "9262": {
       "js": [
         {
-          "file": "assets/js/18c41134.3f25061e.js",
-          "hash": "d3940db6bc3078da",
-          "publicPath": "/ChaBots-Docs/assets/js/18c41134.3f25061e.js"
+          "file": "assets/js/18c41134.9b634032.js",
+          "hash": "3f3a136d1b560091",
+          "publicPath": "/assets/js/18c41134.9b634032.js"
         }
       ]
     },
     "9325": {
       "js": [
         {
-          "file": "assets/js/59362658.b3903ada.js",
-          "hash": "694d95d2b2c8a7dc",
-          "publicPath": "/ChaBots-Docs/assets/js/59362658.b3903ada.js"
+          "file": "assets/js/59362658.4287e167.js",
+          "hash": "0165e5aa73bf3921",
+          "publicPath": "/assets/js/59362658.4287e167.js"
         }
       ]
     },
     "9328": {
       "js": [
         {
-          "file": "assets/js/e273c56f.68bb31b5.js",
-          "hash": "2e665dbd4599a0bd",
-          "publicPath": "/ChaBots-Docs/assets/js/e273c56f.68bb31b5.js"
+          "file": "assets/js/e273c56f.902d218b.js",
+          "hash": "fc9346327a99401f",
+          "publicPath": "/assets/js/e273c56f.902d218b.js"
         }
       ]
     },
@@ -677,7 +677,7 @@
         {
           "file": "assets/js/9354.253cc222.js",
           "hash": "ffd621fa52d0e4ef",
-          "publicPath": "/ChaBots-Docs/assets/js/9354.253cc222.js"
+          "publicPath": "/assets/js/9354.253cc222.js"
         }
       ]
     },
@@ -686,7 +686,7 @@
         {
           "file": "assets/js/5e95c892.2a1cd95f.js",
           "hash": "d30446ceff5429d9",
-          "publicPath": "/ChaBots-Docs/assets/js/5e95c892.2a1cd95f.js"
+          "publicPath": "/assets/js/5e95c892.2a1cd95f.js"
         }
       ]
     },
@@ -695,7 +695,7 @@
         {
           "file": "assets/js/36994c47.595ca335.js",
           "hash": "809c383da8132f7e",
-          "publicPath": "/ChaBots-Docs/assets/js/36994c47.595ca335.js"
+          "publicPath": "/assets/js/36994c47.595ca335.js"
         }
       ]
     }

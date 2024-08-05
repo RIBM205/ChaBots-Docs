@@ -3,158 +3,158 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ChaBots-Docs/blog',
-    component: ComponentCreator('/ChaBots-Docs/blog', 'd14'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'b2f'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/archive',
-    component: ComponentCreator('/ChaBots-Docs/blog/archive', '582'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '182'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/first-blog-post',
-    component: ComponentCreator('/ChaBots-Docs/blog/first-blog-post', 'ae0'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '89a'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/long-blog-post',
-    component: ComponentCreator('/ChaBots-Docs/blog/long-blog-post', '931'),
+    path: '/blog/long-blog-post',
+    component: ComponentCreator('/blog/long-blog-post', '9ad'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/mdx-blog-post',
-    component: ComponentCreator('/ChaBots-Docs/blog/mdx-blog-post', 'dcd'),
+    path: '/blog/mdx-blog-post',
+    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/tags',
-    component: ComponentCreator('/ChaBots-Docs/blog/tags', '9c3'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '287'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/tags/docusaurus',
-    component: ComponentCreator('/ChaBots-Docs/blog/tags/docusaurus', '3de'),
+    path: '/blog/tags/docusaurus',
+    component: ComponentCreator('/blog/tags/docusaurus', '704'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/tags/facebook',
-    component: ComponentCreator('/ChaBots-Docs/blog/tags/facebook', 'f2e'),
+    path: '/blog/tags/facebook',
+    component: ComponentCreator('/blog/tags/facebook', '858'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/tags/hello',
-    component: ComponentCreator('/ChaBots-Docs/blog/tags/hello', '563'),
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '299'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/tags/hola',
-    component: ComponentCreator('/ChaBots-Docs/blog/tags/hola', '84d'),
+    path: '/blog/tags/hola',
+    component: ComponentCreator('/blog/tags/hola', '00d'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/blog/welcome',
-    component: ComponentCreator('/ChaBots-Docs/blog/welcome', '8e5'),
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'd2b'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/markdown-page',
-    component: ComponentCreator('/ChaBots-Docs/markdown-page', 'cff'),
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
-    path: '/ChaBots-Docs/docs',
-    component: ComponentCreator('/ChaBots-Docs/docs', '45e'),
+    path: '/docs',
+    component: ComponentCreator('/docs', 'a1c'),
     routes: [
       {
-        path: '/ChaBots-Docs/docs',
-        component: ComponentCreator('/ChaBots-Docs/docs', 'ed9'),
+        path: '/docs',
+        component: ComponentCreator('/docs', 'ea0'),
         routes: [
           {
-            path: '/ChaBots-Docs/docs',
-            component: ComponentCreator('/ChaBots-Docs/docs', '271'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '7ee'),
             routes: [
               {
-                path: '/ChaBots-Docs/docs/category/soccer-ligthweigth-2024',
-                component: ComponentCreator('/ChaBots-Docs/docs/category/soccer-ligthweigth-2024', '700'),
+                path: '/docs/category/soccer-ligthweigth-2024',
+                component: ComponentCreator('/docs/category/soccer-ligthweigth-2024', '9d9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/category/tutorial---basics',
-                component: ComponentCreator('/ChaBots-Docs/docs/category/tutorial---basics', '69b'),
+                path: '/docs/category/tutorial---basics',
+                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/category/tutorial---extras',
-                component: ComponentCreator('/ChaBots-Docs/docs/category/tutorial---extras', '2ad'),
+                path: '/docs/category/tutorial---extras',
+                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/hello',
-                component: ComponentCreator('/ChaBots-Docs/docs/hello', '713'),
+                path: '/docs/hello',
+                component: ComponentCreator('/docs/hello', '4d1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/intro',
-                component: ComponentCreator('/ChaBots-Docs/docs/intro', 'b3d'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/Soccer-Ligthweigth-2024/Introduccion',
-                component: ComponentCreator('/ChaBots-Docs/docs/Soccer-Ligthweigth-2024/Introduccion', 'f05'),
+                path: '/docs/Soccer-Ligthweigth-2024/Introduccion',
+                component: ComponentCreator('/docs/Soccer-Ligthweigth-2024/Introduccion', '24f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/congratulations', '5ad'),
+                path: '/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/create-a-blog-post', 'b9e'),
+                path: '/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/create-a-document', 'b7c'),
+                path: '/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/create-a-page', '80a'),
+                path: '/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/deploy-your-site', '4e3'),
+                path: '/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-basics/markdown-features', 'd2e'),
+                path: '/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-extras/manage-docs-versions', 'eb5'),
+                path: '/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/ChaBots-Docs/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/ChaBots-Docs/docs/tutorial-extras/translate-your-site', 'e71'),
+                path: '/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -165,8 +165,8 @@ export default [
     ]
   },
   {
-    path: '/ChaBots-Docs/',
-    component: ComponentCreator('/ChaBots-Docs/', '1c9'),
+    path: '/',
+    component: ComponentCreator('/', 'e5f'),
     exact: true
   },
   {
