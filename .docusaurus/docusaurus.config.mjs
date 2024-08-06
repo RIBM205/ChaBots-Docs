@@ -40,7 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/chabots-socialcard.jpg",
     "navbar": {
       "title": "ChaBots",
       "logo": {
@@ -60,7 +60,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/RIBM205/ChaBots-Docs",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,8 +74,8 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Soccer Ligthweigth 2024",
+              "to": "/docs/category/soccer-ligthweigth-2024"
             }
           ]
         },
@@ -83,16 +83,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Instagram",
+              "href": "https://www.instagram.com/chabotsmx/"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Facebook",
+              "href": "https://www.facebook.com/chabotsMX/"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://x.com/ChabotsMx"
             }
           ]
         },
@@ -105,12 +105,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/RIBM205/ChaBots-Docs"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024 ChaBotsMx. Built with Docusaurus."
     },
     "prism": {
       "theme": {

@@ -56,7 +56,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/chabots-socialcard.jpg',
     navbar: {
       title: 'ChaBots',
       logo: {
@@ -72,7 +72,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/RIBM205/ChaBots-Docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,8 +85,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Soccer Ligthweigth 2024',
+              to: '/docs/category/soccer-ligthweigth-2024',
             },
           ],
         },
@@ -94,16 +94,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/chabotsmx/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/chabotsMX/',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://x.com/ChabotsMx',
             },
           ],
         },
@@ -116,12 +116,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/RIBM205/ChaBots-Docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ChaBotsMx. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
