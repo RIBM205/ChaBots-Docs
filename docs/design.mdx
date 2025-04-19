@@ -1,0 +1,109 @@
+---
+id: design
+title: Diseño
+---
+
+# Diseño
+
+## Tamaño
+
+El tamaño de los robots fue un tema de discusión, ya que al principio creíamos que sería mejor tener un tamaño lo más pequeño posible. En 2023, nuestros robots medían 18 cm, pero no representaban una verdadera ventaja comparado con robots de 22 cm. Tener más espacio permite una mejor distribución del peso y, sobre todo, reducir la altura del centro de masa, algo de lo que hablaremos más adelante.
+
+## Próximos Años
+
+Es importante mencionar que tanto el comité como la comunidad han discutido la posibilidad de reducir el tamaño de los robots de Lightweight. En la categoría Open, ya se ha reducido a 18 cm, y se está considerando una reducción a 20 cm en Lightweight. Sin embargo, esto ha sido descartado en las llamadas públicas al menos hasta 2025, y es muy probable que se mantenga así en 2026. También se está planteando reducir el tamaño de la pelota, pero estos cambios no serán inmediatos, aunque es bueno tener en cuenta que podrían ocurrir en algún momento.
+
+## Robots Gemelos
+
+Nuestros dos robots son idénticos. Esto lo hicimos para no perder tiempo en dos diseños diferentes y maximizar el tiempo que tendríamos para perfeccionar la programación. Además, esto nos permitiría, si contáramos con suficiente tiempo, intercambiar los roles de portero y delantero entre ellos.
+
+## Principios de Diseño
+
+### Centro de Gravedad
+
+<div style={{ marginLeft: '2em' }}>
+  El centro de gravedad es el factor más importante en el diseño de robots móviles, pero a menudo es el aspecto más descuidado por la mayoría de los equipos. Esto es un problema porque un bajo centro de gravedad mejora en gran medida los problemas más comunes en los robots. A veces, el problema no está en la programación o la electrónica, sino en el diseño del CAD. Por esta razón, los equipos que llegan a competencias internacionales suelen enfocarse en este aspecto, con un enfoque notable entre los equipos japoneses. Ellos, más que nadie, diseñan sus robots para que sean lo más bajos posible.
+
+  El centro de gravedad afecta completamente el movimiento del robot, especialmente en lo que respecta a su altura. Un centro de gravedad lo más bajo posible es lo óptimo, pero ¿cómo afecta esto?
+
+  Un centro de gravedad (CG) bajo es esencial en cualquier robot móvil porque aumenta significativamente su estabilidad. En un contexto como el de un partido de RoboCup, donde hay alta velocidad y colisiones frecuentes, la importancia de un CG bajo va más allá de simplemente evitar que el robot se vuelque.
+
+  Un CG alto puede causar problemas al frenar, ya que al aplicar la fuerza de frenado, el momento de giro alrededor del frente del robot es mayor, lo que aumenta la probabilidad de que las ruedas traseras se levanten ligeramente, perdiendo tracción y causando deslizamientos considerables. En cambio, un CG bajo mantiene el peso más cerca del suelo, proporcionando mayor tracción y estabilidad.
+</div>
+
+### Ligereza
+
+<div style={{ marginLeft: '2em' }}>
+    La ligereza de un robot es un aspecto crítico en su diseño, especialmente en competiciones de robótica como RoboCup Soccer, donde la agilidad y la rapidez son esenciales.
+
+    **Importancia de la Ligereza**
+
+    -   **Menor Inercia**: Un robot más ligero tiene menos inercia, lo que significa que es más fácil cambiar su estado de movimiento, ya sea acelerar, desacelerar o cambiar de dirección. Esto es crucial para un movimiento rápido y ágil en el campo de juego.
+    -   **Aceleración Rápida**: Según la segunda ley de Newton (F = ma), una masa menor requiere menos fuerza para lograr la misma aceleración. Esto implica que un robot más ligero puede alcanzar velocidades más altas en menos tiempo.
+    -   **Desventajas del Peso**: Aunque un robot más pesado podría parecer ventajoso en términos de fuerza bruta o resistencia, las reglas recientes en competiciones han limitado o prohibido el uso de fuerza excesiva para desplazar a oponentes, haciendo que la ligereza sea una ventaja más significativa.
+
+    **Estrategias para Lograr Ligereza**
+
+    -   **Uso de Materiales Ligeros**:
+        -   **Fibra de Carbono**: Es un material preferido debido a su alta relación resistencia-peso. Se utiliza en partes clave del robot para reducir el peso sin comprometer la integridad estructural.
+    -   **Impresión 3D con Bajo Relleno**:
+        -   Las piezas impresas en 3D con un porcentaje de relleno bajo (15-20%) minimizan el peso, manteniendo suficiente durabilidad sin añadir peso innecesario.
+    -   **Motores con Alta Relación Potencia-Peso**:
+        -   Se prefieren motores que ofrezcan alta potencia en relación con su peso, permitiendo mantener la ligereza general del robot sin sacrificar rendimiento.
+
+    **Beneficios Adicionales**
+
+    -   **Maniobrabilidad**: Un robot ligero es más fácil de controlar, lo que reduce el desgaste de los motores y otros componentes mecánicos.
+    -   **Eficiencia Energética**: Menos peso significa que el robot necesita menos energía para moverse, lo que puede extender la vida útil de la batería durante una competencia.
+</div>
+
+### Distribución del Peso
+
+<div style={{ marginLeft: '2em' }}>
+    La distribución del peso es un factor crítico en el diseño de robots.
+
+    **Distribución Uniforme del Peso**
+
+    -   **Centro de Gravedad**: La distribución uniforme del peso implica que el centro de gravedad del robot debe estar lo más cerca posible del centro geométrico en el plano XY (centroide). Esto asegura que las fuerzas que actúan sobre cada rueda del robot sean equivalentes, lo que es crucial para un movimiento uniforme.
+    -   **Simetría**: Lograr una distribución uniforme del peso a menudo requiere un diseño simétrico del robot, lo que ayuda a minimizar las desviaciones no deseadas en su trayectoria.
+    -   **Desafíos**: Lograr una distribución perfectamente uniforme puede ser difícil debido a la colocación de componentes que no pueden estar centrados, como solenoides o manipuladores que deben estar en posiciones específicas. Sin embargo, se recomienda colocar estos componentes lo más cerca posible del centro geométrico para minimizar su impacto negativo.
+
+    **Posicionamiento Centralizado del Peso**
+
+    -   **Momento de Inercia**: Centralizar el peso cerca del centro del robot reduce el momento de inercia, lo que significa que se requiere menos torque para cambiar la velocidad angular. Esto es especialmente importante en robots que necesitan realizar giros rápidos o cambios de dirección abruptos.
+    -   **Optimización del Rendimiento Rotacional**: Ubicar los componentes más pesados, como baterías o motores, cerca del centro facilita una rotación más rápida y precisa, lo que es ventajoso en situaciones competitivas.
+    -   **Distribución de Componentes**: Si algunos componentes pesados deben estar lejos del centro, el resto se concentra lo más cerca posible del centro para mantener un equilibrio adecuado.
+
+    **Consecuencias de una Mala Distribución del Peso**
+
+    -   **Desbalanceo y Desviaciones**: Una mala distribución del peso puede causar desbalanceo, afectando negativamente la precisión y el control del robot.
+    -   **Desgaste Desigual de Componentes**: Cuando el peso no se distribuye uniformemente, algunas ruedas o motores experimentan más carga, lo que puede llevar a un desgaste prematuro.
+    -   **Eficiencia Energética Reducida**: Un robot mal balanceado puede requerir más energía para mantenerse estable, lo que reduce la eficiencia energética y puede agotar la batería más rápidamente.
+
+    **Implementación en el Diseño**
+
+    -   **Diseños Simétricos**: Muchos equipos optan por diseños simétricos para facilitar una distribución uniforme del peso y optimizar la estabilidad y precisión del robot.
+    -   **Compensación de Peso**: En casos donde el diseño simétrico no es posible, se ajustan componentes adicionales hacia el centro o se agregan contrapesos para equilibrar el robot.
+
+    **Ejemplo**
+
+    Un robot que incluye un solenoide frontal puede tener dificultades para mantener una distribución uniforme del peso. En este caso, se coloca lo más cerca posible del centro geométrico, y otros componentes se distribuyen estratégicamente para contrarrestar cualquier desbalance.
+</div>
+
+### Robustez
+
+<div style={{ marginLeft: '2em' }}>
+    Debido a la naturaleza de la competencia, es común que los robots reciban fuertes impactos. Aunque en México los robots pueden no parecer tan fuertes o veloces, esto no significa que no haya excepciones. Además, si un robot es rápido, es más probable que se salga de la línea o choque con la pared. Por esta razón, un diseño robusto es esencial. Considero que la robustez es uno de los tres factores más importantes que determinan el éxito o fracaso en los concursos.
+
+    Los robots se desgastan partido tras partido o incluso durante las pruebas previas al concurso, lo que a menudo provoca fallos a mitad del evento. Es imposible garantizar un robot perfecto que no se rompa, queme o descalibre, pero es esencial intentar que sea lo más confiable posible.
+</div>
+
+### Modularidad
+
+<div style={{ marginLeft: '2em' }}>
+    La modularidad no es completamente esencial para equipos experimentados, pero es un factor crucial para aquellos que están aprendiendo. El dilema es simple: un robot muy modular tiende a ser frágil, mientras que uno sin modularidad es mucho más robusto. Entonces, ¿cuál es el beneficio de un diseño modular?
+
+    En mi experiencia, enfocar el diseño en la modularidad sin sacrificar la robustez nos permitió avanzar significativamente. Sabía que era probable cometer errores en el diseño electrónico o mecánico, y así fue. Sin embargo, gracias a la modularidad del diseño, pude reemplazar una PCB pequeña que costaba 3 dólares por un paquete de 10, en lugar de una PCB grande que podría haber costado 40 dólares o más. Además, esto permite hacer mejoras graduales sin sacrificar áreas que anteriormente funcionaban correctamente.
+
+    Es crucial encontrar un equilibrio entre robustez y modularidad. Muchos equipos internacionales que han participado varios años suelen tomar el robot con el que ganaron y, gracias a su modularidad, cambian y mejoran un aspecto sin temor a dañar el resto del robot que ya funcionaba bien. Esto incluye tanto la programación como la electrónica.
+</div>

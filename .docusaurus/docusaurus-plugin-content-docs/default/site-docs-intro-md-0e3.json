@@ -1,23 +1,24 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Intro",
+  "description": "",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/docs/intro",
+  "permalink": "/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "id": "intro",
+    "title": "Intro",
     "sidebar_position": 1
   },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "mecanica",
-    "permalink": "/docs/Soccer-Ligthweigth-2024/mecanica"
+  "sidebar": "sidebar",
+  "next": {
+    "title": "Diseño",
+    "permalink": "/design"
   }
 }

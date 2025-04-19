@@ -1,37 +1,32 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "Soccer-Ligthweigth-2024/Introduccion",
+          "path": "/",
+          "mainDocId": "intro",
           "docs": [
             {
-              "id": "Soccer-Ligthweigth-2024/Introduccion",
-              "path": "/docs/Soccer-Ligthweigth-2024/Introduccion",
-              "sidebar": "tutorialSidebar"
+              "id": "design",
+              "path": "/design",
+              "sidebar": "sidebar"
             },
             {
-              "id": "Soccer-Ligthweigth-2024/mecanica",
-              "path": "/docs/Soccer-Ligthweigth-2024/mecanica",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/soccer-ligthweigth-2024",
-              "path": "/docs/category/soccer-ligthweigth-2024",
-              "sidebar": "tutorialSidebar"
+              "id": "intro",
+              "path": "/intro",
+              "sidebar": "sidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "sidebar": {
               "link": {
-                "path": "/docs/category/soccer-ligthweigth-2024",
-                "label": "Soccer Ligthweigth 2024"
+                "path": "/intro",
+                "label": "Intro"
               }
             }
           }

@@ -1,0 +1,22 @@
+{
+  "id": "design",
+  "title": "Diseño",
+  "description": "Tamaño",
+  "source": "@site/docs/design.md",
+  "sourceDirName": ".",
+  "slug": "/design",
+  "permalink": "/design",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "design",
+    "title": "Diseño"
+  },
+  "sidebar": "sidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/intro"
+  }
+}

@@ -26,12 +26,8 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "routeBasePath": "/",
+          "sidebarPath": "./sidebars.ts"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -42,23 +38,11 @@ export default {
   "themeConfig": {
     "image": "img/chabots-socialcard.jpg",
     "navbar": {
-      "title": "ChaBots",
       "logo": {
-        "alt": "My Site Logo",
-        "src": "img/chabots.svg"
+        "alt": "Logo",
+        "src": "img/chaBots-logo-svg.svg"
       },
       "items": [
-        {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
         {
           "href": "https://github.com/RIBM205/ChaBots-Docs",
           "label": "GitHub",
@@ -69,48 +53,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Soccer Ligthweigth 2024",
-              "to": "/docs/category/soccer-ligthweigth-2024"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Instagram",
-              "href": "https://www.instagram.com/chabotsmx/"
-            },
-            {
-              "label": "Facebook",
-              "href": "https://www.facebook.com/chabotsMX/"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://x.com/ChabotsMx"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/RIBM205/ChaBots-Docs"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2024 ChaBotsMx. Built with Docusaurus."
+      "copyright": "@chaBotsMX 2025",
+      "links": []
     },
     "prism": {
       "theme": {
@@ -317,9 +261,9 @@ export default {
       ]
     },
     "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
+      "defaultMode": "dark",
+      "respectPrefersColorScheme": false,
+      "disableSwitch": false
     },
     "docs": {
       "versionPersistence": "localStorage",

@@ -34,19 +34,20 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -58,19 +59,19 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/chabots-socialcard.jpg',
     navbar: {
-      title: 'ChaBots',
+      //title: 'ChaBots',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/chabots.svg',
+        alt: 'Logo',
+        src: 'img/chaBots-logo-svg.svg',
       },
       items: [
-        {
+        /*{
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'sidebar',
           position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
+          label: 'Docs',
+        },*/
+        //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/RIBM205/ChaBots-Docs',
           label: 'GitHub',
@@ -80,52 +81,15 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Soccer Ligthweigth 2024',
-              to: '/docs/category/soccer-ligthweigth-2024',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Instagram',
-              href: 'https://www.instagram.com/chabotsmx/',
-            },
-            {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/chabotsMX/',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://x.com/ChabotsMx',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/RIBM205/ChaBots-Docs',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} ChaBotsMx. Built with Docusaurus.`,
+      copyright: `@chaBotsMX ${new Date().getFullYear()}`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
     },
   } satisfies Preset.ThemeConfig,
 };
