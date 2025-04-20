@@ -62,7 +62,7 @@ const config: Config = {
       //title: 'ChaBots',
       logo: {
         alt: 'Logo',
-        src: 'img/chaBots-logo-svg.svg',
+        src: 'img/logo-placeholder.svg',
       },
       items: [
         /*{
@@ -74,8 +74,9 @@ const config: Config = {
         //{to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/RIBM205/ChaBots-Docs',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },

@@ -49,15 +49,15 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '20e'),
+    component: ComponentCreator('/', '51c'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '001'),
+        component: ComponentCreator('/', '9bf'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '54d'),
+            component: ComponentCreator('/', '817'),
             routes: [
               {
                 path: '/design',
@@ -68,6 +68,12 @@ export default [
               {
                 path: '/intro',
                 component: ComponentCreator('/intro', '206'),
+                exact: true,
+                sidebar: "sidebar"
+              },
+              {
+                path: '/ocelot',
+                component: ComponentCreator('/ocelot', '3b3'),
                 exact: true,
                 sidebar: "sidebar"
               }

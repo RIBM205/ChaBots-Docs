@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Intro",
-  "description": "",
+  "description": "Bienvenido!, en esta página encontrarás la documentación disponible de los robots de chaBots.",
   "source": "@site/docs/intro.mdx",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -18,7 +18,7 @@
   },
   "sidebar": "sidebar",
   "next": {
-    "title": "Diseño",
-    "permalink": "/design"
+    "title": "chaBots Ocelot",
+    "permalink": "/ocelot"
   }
 }

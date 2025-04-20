@@ -40,13 +40,14 @@ export default {
     "navbar": {
       "logo": {
         "alt": "Logo",
-        "src": "img/chaBots-logo-svg.svg"
+        "src": "img/logo-placeholder.svg"
       },
       "items": [
         {
           "href": "https://github.com/RIBM205/ChaBots-Docs",
-          "label": "GitHub",
-          "position": "right"
+          "position": "right",
+          "className": "header-github-link",
+          "aria-label": "GitHub repository"
         }
       ],
       "hideOnScroll": false

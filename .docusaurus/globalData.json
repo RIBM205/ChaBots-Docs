@@ -19,6 +19,11 @@
               "id": "intro",
               "path": "/intro",
               "sidebar": "sidebar"
+            },
+            {
+              "id": "ocelot",
+              "path": "/ocelot",
+              "sidebar": "sidebar"
             }
           ],
           "draftIds": [],

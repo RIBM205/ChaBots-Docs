@@ -30,6 +30,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: '2024',
           items: [
+            'ocelot',
             'design',
           ],
         },
