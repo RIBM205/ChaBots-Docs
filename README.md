@@ -10,4 +10,4 @@ Aquí no hay edades, géneros ni barreras que nos impidan hacer lo que más nos 
 
 ## Competencias
 
-- [**Robocup Junior Soccer Lightweight**](/https://docs.chabots.com.mx/ocelot)
+- **Robocup Junior Soccer Lightweight**
