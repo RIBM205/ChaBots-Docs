@@ -1,41 +1,13 @@
-# Website
+# chaBots Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Bienvenido!, en esta página encontrarás la documentación disponible de los robots de chaBots.
 
-### Installation
+## Sobre chaBots
 
-```
-$ yarn
-```
+chaBots, es un grupo independiente de estudiantes de robótica con sede en San Luis Potosí, México. Creemos que las competencias son la mejor manera de aprender robótica.
 
-### Local Development
+Aquí no hay edades, géneros ni barreras que nos impidan hacer lo que más nos gusta: la robótica. Nos une nuestra pasión y siempre nos esforzamos al máximo. El trabajo en equipo y la solidaridad nos hacen ser quienes somos.
 
-```
-$ yarn start
-```
+## Competencias
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- [**Robocup Junior Soccer Lightweight**](/https://docs.chabots.com.mx/ocelot)
